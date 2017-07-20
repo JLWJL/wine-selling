@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Membership | Wine Street Wines</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/mycss.css" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico">
+</head>
+
+<body class="membership">
+
+
+<!--navigation start-->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+        <!-- Brand-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mnav">
+            <span class="glyphicon glyphicon-plus"></span>
+            </button>
+            <p class="navbar-brand text-uppercase">Wall Street Wines</p>
+		</div>
+
+        <div class="collapse navbar-collapse" id="mnav">
+        	<!-- left navigation -->
+            <ul class="nav navbar-nav" >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li class="active"><a href="membership.html">Membership<span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">About</a></li>
+            </ul>
+            
+            <!-- right navigation -->
+            <form class="navbar-form navbar-right" role="search" method="get" action="http://www.google.com/search">
+                <input type="text" name="q" class="form-control" placeholder="Google Search">
+       			<button type="submit" class="btn btn-default" formtarget="new">Google</button>
+            </form>
+        </div>
+	</div>
+</nav>  <!--navigation end-->
+  
+
+<!-- content -->  
+<div class="fullSizeTile-container">
+    <div class="fullSizeTile-container">
+        <div class="fullSizeTile-wrapper">          
+            <div class="container">
+                <div class="col-lg-6">
+                    <h2>MEMBERSHIP SIGN-UP</h2>
+                    <br>
+                    <form name="myForm" onsubmit="return validateForm()" method="get" action="#">
+                        <div class="form-group">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="First name must be at least 5 letters" onBlur="validateName()">
+                            <span id="spanName" class="span_warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Last Name:</label>
+                            <input type="text" class="form-control" id="surname" placeholder="Last name must be at least 8 letters" onBlur="validateSurname()">
+                            <span id="spanSurname" class="span_warning"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="text" class="form-control" id="email" placeholder="Enter email" onBlur="validateEmail()">
+                            <span id="spanEmail" class="span_warning"></span>      
+                        </div> 
+                        <div class="form-group">
+                            <label for="dateOfBirth">Date of Birth:</label>
+                            <input type="date" class="form-control" id="dateOfBirth">
+                            <span id="spanDOB" class="span_warning"></span>      
+                        </div> 
+                        <div class="form-group">
+                            <label>Gender:</label>&nbsp;&nbsp;
+                            <label>
+                            <input type="radio" value="Male" id="male">
+                            Male</label> &nbsp;
+                            <label>
+                            <input type="radio" value="Female" id="female">
+                            Female</label>
+                        	<span id="spanGender" class="span_warning"></span> 
+                        </div>
+                        <div class="form-group">
+      						<input type="checkbox" id="agreement" value="agree">
+                            <label for="agreement">I have read and accept all the terms and conditions and privacy policy.</label>
+                            <span id="spanAgreement" class="span_warning"></span>    
+                      	</div>
+                        <button type="submit" class="btn btn-default">SIGN UP</button>
+                    </form>   
+                    <br>
+                    <br>                       
+                </div>      
+            </div>
+        </div>
+    </div>
+</div><!-- //content -->  
+
+
+<!-- footer -->  
+<footer class="footer">
+    <div class="footer-left">
+        <img src="images/logo_title.png" width="150" alt=""/>
+        <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">Product</a>
+            ·
+            <a href="#">Membership</a>
+            ·
+            <a href="#">About</a>
+        </p>
+        <p class="footer-copyright">ISCG6420 Internet & Website Development  &copy; 2016</p>
+    </div>
+    
+    <div class="footer-center">
+    
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>22 Main Street</span>Dunedin, New Zealand</p>
+        </div>
+    
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>0800 14 65 00</p>
+        </div>
+    
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@wallstreetwines.co.nz">support@wallstreetwines.co.nz</a></p>
+        </div>
+    
+    </div>
+    
+    <div class="footer-right">
+    
+        <p class="footer-designer">
+            <span>Designer</span>
+            Chong Wang  SID: 1470225<br>
+            Junlong Wang  SID: 1470397
+        </p>
+    	<br>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-tumblr"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>  
+    </div>
+</footer> <!-- //footer -->  
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/membershipValidation.js"></script>
+
+</body>
+</html>

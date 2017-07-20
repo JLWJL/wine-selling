@@ -1,0 +1,225 @@
+[
+	
+	{	
+		"id":"1",
+		"title":"Inniskillin Riesling Icewine",
+		"category":"Riesling",
+		"popularity":"high",
+		"price":"112.00",
+		"onsale":"N",
+		"description":"Originating in Germany, Icewine (aka Eiswein) production happens when super-ripe grapes are frozen on the vine, so winemakers can concentrate flavours by separating the precious sweet pulp from crystalised water (ice) in the juice. This classic wine from Niagara Penninsula delivers well above its price, with extreme delicacy and richness balanced by perfect acidity and gorgeous texture.",
+		"img":"images/riesling4.jpg"
+	},
+	
+	{	
+		"id":"2",
+		"title":"Dry River Craighall Martinborough Riesling",
+		"category":"Riesling",
+		"popularity":"middle",
+		"price":"49.99",
+		"onsale":"Y",
+		"description":"Low yielding vines have produced aromas of l emon flowers and lime sherbet, combined with less expected peach and nectarine notes. The extended lees aging in tank shows a light creamy or biscuit character, tying together the aromatics and bringing uniformity.",
+		"img":"images/riesling5.jpg"
+	},
+	
+	{	
+		"id":"3",
+		"title":"Astrolabe Wairau Dry Riesling",
+		"category":"Riesling",
+		"popularity":"high",
+		"price":"12.99",
+		"onsale":"N",
+		"description":"Deal price of the Summer! This beautiful dry Riesling shows Astrolabe's expertise in making Marlborough whites. Fresh and crisp with precise citrus and fine textural depth (from a balanced lees work) this is the perfect Summer aperitif or accompaniment to anti-pasti and white meats.",
+		"img":"images/riesling1.jpg"
+	},
+	
+	{	
+		"id":"4",
+		"title":"Dr Loosen Riesling (DR L)",
+		"category":"Riesling",
+		"popularity":"medium",
+		"price":"19.99",
+		"onsale":"Y",
+		"description":"Our biggest selling Riesling, this classic German has beautiful sweetness with balanced mineral acidity and only 8.5% alcohol. Loosen is the world's most renowned Riesling expert and even this entry-level has more harmony and complexity than many wines three times the price. Light bodied but silky-sweet and fresh, treat yourself to this appetising wine before dinner or with any spicy or fatty white meat. Delicious!",
+		"img":"images/riesling2.jpg"
+	},
+	
+	{	
+		"id":"5",
+		"title":"Boneline Waipara Dry Riesling",
+		"category":"Riesling",
+		"popularity":"medium",
+		"price":"20.99",
+		"onsale":"Y",
+		"description":"Refreshingly dry and light-bodied (at only 12.00% alcohol), this unique Riesling from Boneline is full of the mineral character derived from Waipara's lime soils. It also captures the grape's beautiful citrus notes and a crisp, dry acidity quite rare in NZ and so often requested by our Riesling customers.",
+		"img":"images/riesling3.jpg"
+	},
+	
+	{	
+		"id":"6",
+		"title":"Charcoal Gully Sallys Pinch Pinot Noir",
+		"category":"Pinot Noir",
+		"popularity":"high",
+		"price":"25.99",
+		"onsale":"N",
+		"description":"A superb wine for this crazy back-vintage price especially after it picked up Top 10 and 5 Stars in Cuisine and Gold at the Royal Easter Show. The Sallys Pinch is a beautiful Central Pinot offering great depth of ripe fruit with real complexity and satisfaction - especially at this age in bottle. ",
+		"img":"images/pinotnoir1.jpg"
+	},
+	
+	{	
+		"id":"7",
+		"title":"Stanley Estate Awatere Pinot Noir",
+		"category":"Pinot Noir",
+		"popularity":"medium",
+		"price":"19.99",
+		"onsale":"Y",
+		"description":"This beautiful wine is the sophisticated version of the lighter-styled Marlborough Pinot. Medium to light in colour and body it offers lovely aromatic red and dark fruits in a juicy and bright palate. It is texture and mineral depth that make this deceptively serious stuff - though still very easy to enjoy and even more so to match with food, especially the winged sort.",
+		"img":"images/pinotnoir2.jpg"
+	},
+	
+	{	
+		"id":"8",
+		"title":"Fancrest Waipara Pinot Noir",
+		"category":"Pinot Noir",
+		"popularity":"high",
+		"price":"25.99",
+		"onsale":"N",
+		"description":"Beautiful dark, earthy fruits are enlivened by fresh acidity and complex savoury/mineral character. Fancrest have a low intervention philosophy in vineyard and winery, letting bio-diverse soil give healthy, expressive fruit that doesn't need much manipulation. The artisan quality is palpable - at under $30 this is a serious drop and very true to Waipara. ",
+		"img":"images/pinotnoir3.jpg"
+	},
+	
+	{	
+		"id":"9",
+		"title":"Ara Resolute Pinot Noir",
+		"category":"Pinot Noir",
+		"popularity":"low",
+		"price":"24.99",
+		"onsale":"N",
+		"description":"This is drinking superbly with four year age on it but it will easily age further. The Resolute had expensive new French oak thrown at it and was selected from a few of the best rows in their single vineyard. Packaged in a heavy embossed bottle this is the real deal. Ara make Pinot with bright berry fruit but a mineral and earthy core - never fruit bombs - and this one was built on the fine acid and tannin structure of their proper $60 label. ",
+		"img":"images/pinotnoir4.jpg"
+	},
+	
+	{	
+		"id":"10",
+		"title":"Mt Difficulty Target Gully Pinot Noir",
+		"category":"Pinot Noir",
+		"popularity":"medium",
+		"price":"99.00",
+		"onsale":"Y",
+		"description":"Opulent fruit depth and details of spice and minerals, this wine is a flavour and textural delight. Target Gully is the highest of Mt Difficulty's vineyards, harvesting last with the most character and flavour accrued.",
+		"img":"images/pinotnoir5.jpg"
+	},
+	
+	{	
+		"id":"11",
+		"title":"Columbia Crest Grand Estates Merlot",
+		"category":"Merlot",
+		"popularity":"high",
+		"price":"19.99",
+		"onsale":"N",
+		"description":"Lovely merlot thats not overcooked due to the high altitude vineyard and large temperature range of the Columbia Valley in Washington State. Low rainfall and low fertility all add up to this brilliant value merlot- made cheaper because we have an introduction deal on their wines. A rich aromatic profile with notes of chocolate and dark cherries followed by a smooth, velvety finish. ",
+		"img":"images/merlot1.jpg"
+	},
+	
+	{	
+		"id":"12",
+		"title":"Theory and Practice Hawkes Bay Merlot",
+		"category":"Merlot",
+		"popularity":"medium",
+		"price":"19.99",
+		"onsale":"Y",
+		"description":"It captures that ripe Hawkes Bay fruit - but not in heavy way. Instead it is perfectly focussed and balanced, with defined red and black fruit character set in a quite rich, warming yet fresh and balanced palate with all the finesse of a European wine...or an expensive Kiwi one.",
+		"img":"images/merlot2.jpg"
+	},
+	
+	{	
+		"id":"13",
+		"title":"Beach House Reserve Merlot",
+		"category":"Merlot",
+		"popularity":"high",
+		"price":"18.99",
+		"onsale":"N",
+		"description":"A barrel selection of their best, at our Gimblett Gravels tasting the 2013 of this (very similar vintage and wine) was the favourite on sheer value. Packed with dense layers of juicy, chocolatey plum and toasty new oak with perfectly fine, ripe tannins.",
+		"img":"images/merlot3.jpg"
+	},
+	
+	{	
+		"id":"14",
+		"title":"Chateau La Chenade Bordeaux",
+		"category":"Merlot",
+		"popularity":"low",
+		"price":"40",
+		"onsale":"N",
+		"description":"Elegant and aromatic, this is a classy charmer. Mostly Merlot from sandier soils, it reveals brighter aromatics of wild strawberries, with Cabernet Franc touching the background with darker fruit and some structure.",
+		"img":"images/merlot4.jpg"
+	},
+	
+	{	
+		"id":"15",
+		"title":"Squawking Magpie 'The Nest' Merlot",
+		"category":"Merlot",
+		"popularity":"high",
+		"price":"42.99",
+		"onsale":"N",
+		"description":"Great plantings in Gimblett Gravels produce a wine full of succulent black and red fruits, spice, firm ripe tannins and toasty character reflective of 18 months in French Oak. Owner Gavin Yortt strives for quality in the vineyard and bottle over marketing fanfare, so the value is palpable.",
+		"img":"images/merlot5.jpg"
+	},
+	
+	{	
+		"id":"16",
+		"title":"Johnny Q Shiraz/ Viognier",
+		"category":"Shiraz",
+		"popularity":"high",
+		"price":"14.99",
+		"onsale":"N",
+		"description":"An everyday quaffer that offers great value. Good critics scores and a Gold Medal prove its unbeatable value. Bright and juicy - jump in!",
+		"img":"images/shiraz1.jpg"
+	},
+	
+	{	
+		"id":"17",
+		"title":"Thorn-Clarke Sandpiper Barossa Shiraz",
+		"category":"Shiraz",
+		"popularity":"medium",
+		"price":"16.99",
+		"onsale":"Y",
+		"description":"Rich plummy/berry fruits are vibrant and fresh, with layers of chocolatey spice and earth making it much more than just a really satisfying glass. It can even age a while. From sixth generation Barossa veterans, this is serious wine for the price.",
+		"img":"images/shiraz2.jpg"
+	},
+	
+	{	
+		"id":"18",
+		"title":"Penfolds Bin 128 Coonawarra Shiraz",
+		"category":"Shiraz",
+		"popularity":"high",
+		"price":"34.99",
+		"onsale":"N",
+		"description":"A beautiful, intense Shiraz from Penfolds' sources in slightly cooler Coonawarra. Serious quality and purity unfold in the glass - without the usual spicy/leafy/mineral distractions. 94/100 from Tyson Stelzer, this is focused on red and black fruit in a juicy but rich, slurpy body with chalky tannins behind.",
+		"img":"images/shiraz3.jpg"
+	},
+	
+	{	
+		"id":"19",
+		"title":"Elephant Hill Hawkes Bay Reserve Syrah",
+		"category":"Shiraz",
+		"popularity":"medium",
+		"price":"44.99",
+		"onsale":"Y",
+		"description":"This is the equal of the famous 2013 but approachable younger, performing a magical balancing act - mouthfilling and juicy while remaining ethereal, complex and structured. A New Zealand definition of classy, this delicious and collectible wine will drink now or cellar.",
+		"img":"images/shiraz4.jpg"
+	},
+	
+	{	
+		"id":"20",
+		"title":"Kalleske Greenock Shiraz",
+		"category":"Shiraz",
+		"popularity":"low",
+		"price":"49.99",
+		"onsale":"Y",
+		"description":"Heart and soul for Kalleske, Greenock is a home single vineyard tended by 6th and 7th generation family members. Sandy loam over deep red clay and limestone offer hard soils but enough water retention to get these beautiful old vines through the intense Barossa summer.",
+		"img":"images/shiraz5.jpg"
+	}
+	
+	
+]
+

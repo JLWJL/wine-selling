@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Product | Wine Street Wines</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/mycss.css" rel="stylesheet">
+<link rel="stylesheet" href="css/cartStyle.css">
+<link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+
+
+<!--navigation start-->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+        <!-- Brand-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mnav">
+            <span class="glyphicon glyphicon-plus"></span>
+            </button>
+            <p class="navbar-brand text-uppercase">Wall Street Wines</p>
+		</div>
+
+        <div class="collapse navbar-collapse" id="mnav">
+        	<!-- left navigation -->
+            <ul class="nav navbar-nav" >
+            <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="product.html">Product<span class="sr-only">(current)</span></a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="about.html">About</a></li>
+            </ul>
+            
+            <!-- right navigation -->
+            <form class="navbar-form navbar-right" role="search" method="get" action="http://www.google.com/search">
+                <input type="text" name="q" class="form-control" placeholder="Google Search">
+       			<button type="submit" class="btn btn-default" formtarget="new">Google</button>
+            </form>
+        </div>
+	</div>
+</nav>
+<!--navigation end-->
+  
+
+<!-- banner -->
+    <div class="container">
+    <div class="banner1">
+        <h2>OUR OUTSTANDING WINES</h2>
+    </div>
+</div>
+<!-- //banner -->
+ 
+ 
+<div class="content">
+    
+    <!-- type -->
+    <div class="container">
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+            <div class="btn-group" role="group">
+                <button type="button" id="allType" class="btn btn-default" onClick="javascript:showAll()"><b>All Categories</b></button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="Merlot" class="btn btn-default" onClick="javascript:accomsSelect(1)"><b>Merlot</b></button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="Riesling" class="btn btn-default" onClick="javascript:accomsSelect(2)"><b>Riesling</b></button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="Shiraz" class="btn btn-default" onClick="javascript:accomsSelect(3)"><b>Shiraz</b></button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="PinotNoir" class="btn btn-default" onClick="javascript:accomsSelect(4)"><b>Pinot Noir</b></button>
+            </div>
+        </div>
+    </div>  <!-- //type -->
+
+
+	<div class="container product"> <!--product container -->
+    	<div class="row item discountItem" id="item1"><!--sale item sample-->
+			<div class="col-lg-9 vertical-container"> 
+            	<img src="images/merlot2.jpg" class="left" alt="">
+            	<div>
+                    <h4>THORN-CLARKE SANDPIPER BAROSSA CABERNET SAUVIGNON</h4>
+                    <strong>Category</strong>: <strong></strong>
+                    <p>Another classy wine from Dry River consultant Ant MacKenzie, this is far better than the price. (5 Stars Raymond Chan, 5 Stars Wine Orbit Magazine). It captures that ripe Hawkes Bay fruit - but not in heavy way. Instead it is perfectly focussed and balanced, with defined red and black fruit character set in a quite rich, warming yet fresh and balanced palate with all the finesse of a European wine...or an expensive Kiwi one. Hardly surprising from this consistently superb label.</p>
+                </div>
+            </div>
+            
+			<div class="col-lg-3">  
+                <div class="price-box-align">
+                    <div class="price-box">
+                        <h6>Elsewhere up to <span class="price">$33.99</span></h6>
+                        <span class="price">$29.99</span>a bottle<br><br>
+                        <button class="btn btn-danger my-cart-btn add-button" data-id="" data-name="" data-price=""  data-image="">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+			
+		</div><!-- //sale item sample -->
+        <hr class="style">
+        
+    	<div class="row item normalItem" id="item2"><!-- not sale item sample-->
+			<div class="col-lg-9 vertical-container"> 
+            	<img src="images/merlot2.jpg" class="left" alt="">
+            	<div>
+                    <h4>THORN-CLARKE SANDPIPER BAROSSA CABERNET SAUVIGNON</h4>
+                    <strong>Category</strong>: <strong></strong>
+                    <p>Another classy wine from Dry River consultant Ant MacKenzie, this is far better than the price. (5 Stars Raymond Chan, 5 Stars Wine Orbit Magazine). It captures that ripe Hawkes Bay fruit - but not in heavy way. Instead it is perfectly focussed and balanced, with defined red and black fruit character set in a quite rich, warming yet fresh and balanced palate with all the finesse of a European wine...or an expensive Kiwi one. Hardly surprising from this consistently superb label.</p>
+                </div>
+            </div>
+            
+			<div class="col-lg-3">   
+                <div class="price-box-align">
+                    <div class="price-box">
+                        <span class="price">$29.99</span>a bottle<br><br>
+                        <button class="btn btn-danger my-cart-btn add-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+			
+		</div><!-- //not sale item sample -->        
+        <hr class="style">
+        
+   
+	</div><!-- //product container -->
+</div> <!-- //content -->
+ 
+<footer class="footer">
+    <div class="footer-left">
+        <img src="images/logo_title.png" width="150" alt=""/>
+        <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">Product</a>
+            ·
+            <a href="#">Membership</a>
+            ·
+            <a href="#">About</a>
+        </p>
+        <p class="footer-copyright">ISCG6420 Internet & Website Development  &copy; 2016</p>
+    </div>
+    
+    <div class="footer-center">
+    
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>22 Main Street</span>Dunedin, New Zealand</p>
+        </div>
+    
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>0800 14 65 00</p>
+        </div>
+    
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@wallstreetwines.co.nz">support@wallstreetwines.co.nz</a></p>
+        </div>
+    
+    </div>
+    
+    <div class="footer-right">
+    
+        <p class="footer-designer">
+            <span>Designer</span>
+            Chong Wang  SID: 1470225<br>
+            Junlong Wang  SID: 1470397
+        </p>
+    	<br>
+        <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-tumblr"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>  
+    </div>
+</footer>
+
+<!--Shopping Cart Area-->
+<div class="cd-cart-container empty">
+	<a href="#0" class="cd-cart-trigger">
+		Shopping Cart
+		<ul class="count"> <!-- cart items count -->
+			<li>0</li>
+			<li>0</li>
+		</ul> <!-- .count -->
+	</a>
+
+	<div class="cd-cart">
+		<div class="wrapper">
+			<header>
+				<h2>Shopping Cart</h2>
+				<span class="undo">Deleted <a href="#0">Undo</a></span>
+			</header>
+			
+			<div class="body">
+				<ul>
+					<!-- products added to the cart will be inserted here using JavaScript -->
+				</ul>
+			</div>
+
+			<footer>
+				<a href="#0" class="checkout"><em>Checkout - $<span>0</span></em></a>
+			</footer>
+		</div>
+	</div> <!-- .cd-cart -->
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/ajaxLoad_product.js"></script> 
+<script src="js/shoppingCart.js"></script> 
+
+</body>
+</html>
