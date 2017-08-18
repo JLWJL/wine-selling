@@ -5,8 +5,8 @@ $(document).ready(function(){
 			var onsaleNumber=0;  //Count number of on-sale items that have been retrieved
 			
             //Get two containers for featured items and on-sale items
-			var featureItemFrame = $(".featuredItems");
-			var onsaleItemFrame = $(".onsaleItems")
+			var featureItemFrame = $(".items-area")[0];
+			var onsaleItemFrame = $(".items-area")[1];
 			
 			$.each(result, function(key, value){
 				//for feature item
@@ -23,7 +23,7 @@ $(document).ready(function(){
 					featureItem.find(".add-button").data("id",value.id);
 					featureItem.find(".add-button").html("Add To Cart");
 					featureItemFrame.append(featureItem);
-					featureItem.css("display","inline");
+					featureItem.removeClass('template');
 					featuredNumber++;  
 				}
                 //for on-sale items 
@@ -40,7 +40,7 @@ $(document).ready(function(){
 					onsaleItem.find(".add-button").data("id",value.id);
 					onsaleItem.find(".add-button").html("Add to Cart");
 					onsaleItemFrame.append(onsaleItem);
-					onsaleItem.css("display","inline");
+					onsaleItem.featureItem.removeClass('template');
 					onsaleNumber++;
 				}
             });
