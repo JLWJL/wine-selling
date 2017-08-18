@@ -40,7 +40,7 @@ $(document).ready(function(){
 					onsaleItem.find(".add-button").data("id",value.id);
 					onsaleItem.find(".add-button").html("Add to Cart");
 					onsaleItemFrame.append(onsaleItem);
-					onsaleItem.featureItem.removeClass('template');
+					onsaleItem.removeClass('template');
 					onsaleNumber++;
 				}
             });
