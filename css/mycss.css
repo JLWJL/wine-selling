@@ -306,6 +306,28 @@ img.maxwidth{
 
 
 /*style for product page start*/
+.featured-items,.onsale-items{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:flex-start;
+	width: 67%;
+	text-align: center;
+	margin:auto;
+}
+
+.featureItem, .onsaleItem{
+	align-items:center;
+	width: 136.8px;
+	height:350px;
+	
+	padding: 1em;
+	border: 1px solid #B2B2B2;
+	position: relative;
+/*	margin-right: 1%;*/
+	margin-left: 1%;
+	margin-top: 15px;
+}
+
 .mid-1 h5 {
     font-size: 1.1em;
 }
@@ -356,8 +378,6 @@ img.maxwidth{
 .col-m {
     padding: 1em;
     border: 1px solid #B2B2B2;
-	width: 18%;
-	float: left;
 	position: relative;
 	min-height: 1px;
 	margin-right: 1%;
@@ -371,6 +391,13 @@ img.maxwidth{
 	margin:0 auto;
 	
 }
+
+
+
+
+
+
+
 /*--cart--*/
 .my-cart-btn {
     background: none;
