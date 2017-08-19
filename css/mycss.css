@@ -53,6 +53,12 @@ img.maxwidth{
 	padding: 55px 50px;
 }
 
+.footer-left,
+.footer-center,
+.footer-right{
+	margin-top:15px;
+}
+
 
 /* Footer left */
 .footer .footer-left{
@@ -148,7 +154,7 @@ img.maxwidth{
 }
 
 .footer .footer-icons{
-	margin-top: 25px;
+	display: flex;
 }
 
 .footer .footer-icons a{
