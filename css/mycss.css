@@ -495,8 +495,8 @@ img.left {
 	padding: 1em 0;
 }
 
-.discountItem, normalItem{
-	display:flex;
+.discountItem, .normalItem{
+	display:none;
 	flex-wrap:wrap;
 }
 
