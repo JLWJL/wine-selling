@@ -308,6 +308,22 @@ img.maxwidth{
 /*style for index page items end*/
 
 
+/* Category button group */
+.btn_categories{
+	display:flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+
+
+.btn_category{
+	-webkit-flex-basis: auto;
+	        flex-basis: auto;
+}
+
+
+
 /*style for product page start*/
 .featured-items,.onsale-items{
 	display:flex;
@@ -479,8 +495,9 @@ img.left {
 	padding: 1em 0;
 }
 
-.discountItem{
-	display:none;
+.discountItem, normalItem{
+	display:flex;
+	flex-wrap:wrap;
 }
 
 .normalItem{
@@ -499,6 +516,12 @@ hr.style {
 	clear:both;
 	display:none;
 }
+
+/*.c-price{
+	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+}*/
 
 
 .price-box {
@@ -537,11 +560,7 @@ hr.style {
 }
 
 
-.price-box-align{
-	text-align:right;
-	margin-top: 25%;
-	margin-right: 25%;
-}
+
 
 /* //style for product page*/
 
@@ -638,3 +657,14 @@ body.membership{
 }
 
 /* style for about page end*/
+
+@media screen and (max-width:768px){
+	.c-price{
+		display: flex;
+    	flex-basis: 100%;		
+	}
+
+	.price-box-align{
+		margin-right:0%;
+	}
+}
